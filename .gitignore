@@ -1,0 +1,27 @@
+# Environment variables
+.env
+.env.*
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# PostgreSQL / local data
+*.sql.bak
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files
+*.csv
+*.xlsx
+
+# Too large
+data/processed/retail-clean.csv
